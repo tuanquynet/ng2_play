@@ -1,16 +1,40 @@
 ## Angular 2 Play
 
-This repo uses Angular 2 RC1 with Material 2 Alpha 4.
+LIVE DEMO: [https://ng2play.azurewebsites.net](https://ng2play.azurewebsites.net)
+
+This repo uses Angular 2.0.2 Material 2 Alpha 9 and is hosted with Webpack using [Angular CLI](https://github.com/angular/angular-cli).
 
 <img src="screenshots/readme-screen.png" border="0" />
 
 Run the following commands to run the application
 
+    // Install angular-cli and typings once globally
+    npm -g install angular-cli
+    npm -g install typings
+
+    // To run the frontend
+    git clone https://github.com/ajtowf/ng2_play.git
+    cd ng2_play
     npm install
-    typings install
-    gulp
+    ng serve
+
+    // To run the backend
+    cd ng2_play\backend
+    node app.js
 
 # Screencasts
+
+## 2016-10-10 Angular 2.0.2 Full Release!
+
+- https://youtu.be/E4g1hdk9oW0
+
+## 2016-08-15 Upgrade to RC5 - NgModules and Forms
+
+- https://youtu.be/cxkXHZrcvKY
+
+## 2016-07-05 Upgrading to 3.0 Router and Guarding Routes
+
+- https://youtu.be/w1PFJT_FfSY
 
 ## 2016-04-14 Replacing Bootstrap with Material2
 
